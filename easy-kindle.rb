@@ -4,10 +4,10 @@
 class EasyKindle < Formula
   desc "CLI tool to convert web articles into EPUB and send to Kindle"
   homepage "https://github.com/affanmustafa/easy-kindle"
-  version "1.1"
+  version "1.2"
   
   url "https://github.com/affanmustafa/easy-kindle/releases/download/v#{version}/easy-kindle"
-  sha256 "529b6916900ea5ba48ecc354f54cd99094db88c006e35db338c4b7e6856a6df9"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
   def install
     bin.install "easy-kindle"
