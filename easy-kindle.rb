@@ -7,7 +7,7 @@ class EasyKindle < Formula
   version "1.2"
   
   url "https://github.com/affanmustafa/easy-kindle/releases/download/v#{version}/easy-kindle"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "6d05d55890c5cfb2c755fea94d81b50d8ad9a3d75e302a63d19f8767b0b31a10"
 
   def install
     bin.install "easy-kindle"
